@@ -1,0 +1,1256 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    padding-bottom: 5px;
+    border: 0;
+    border-bottom: 1px solid #c5e2f97a;
+}
+
+.mtf75 {
+    margin-top: 75px;
+}
+
+.nav {
+    float: right;
+    padding-top: 5px;
+}
+
+.navbar-brand {
+    padding-top: 5px;
+}
+
+.logo-blue {
+    width: 100px;
+}
+
+.logo-white {
+    width: 100px;
+}
+
+.mobile-app-down {
+    float: right;
+    margin-right: 20px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.pb25 {
+    padding-bottom: 25px;
+}
+
+.pb45 {
+    padding-bottom: 45px;
+}
+
+.mt25 {
+    margin-top: 25px;
+}
+
+.main-bg {
+    background-color: #fff;
+    background-image: url(../img/blue_back.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    padding-top: 2px;
+}
+
+
+/*   How It Works Css   */
+
+.how-it-works-img {
+    text-align: center;
+}
+
+.how-it-works-img-desc p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #092a4e87;
+}
+
+.how-it-works-img img {
+    margin-top: 25px;
+    width: 264px;
+    height: 310px;
+}
+
+.india-flag {
+    width: 30px;
+    padding-top: 10px;
+    margin-right: 130px;
+}
+
+.india-flag:hover:after {
+    pointer-events: none;
+    position: absolute;
+    width: 265px;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 20px;
+    border-radius: 4px;
+    content: 'Paykun QR is available only for Indian Merchants';
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    left: -120px;
+    top: 100%;
+    margin-top: 10px;
+}
+
+.down-app-link {
+    color: #fff;
+    padding-top: 13px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.qr-img {
+    margin-top: -40px;
+}
+
+.helpline {
+    color: #fff;
+    padding-top: 13px;
+    padding-left: 30px;
+}
+
+.store-white-a {
+    padding: 0px!important;
+    margin: 10px 10px 0px 10px;
+}
+
+.store-white {
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+}
+
+.main-bg {
+    padding-bottom: 120px;
+}
+
+.blue-back-desk {
+    position: absolute;
+    right: 0px;
+    z-index: -9
+}
+
+.blue-back-mobi {
+    position: absolute;
+    right: 0px;
+    z-index: -9
+}
+
+.form-group {
+    display: flex;
+}
+
+.form-group .pre-mobile {
+    padding: 19px 15px 0px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border-top: 1px solid #c5e2f9;
+    border-left: 1px solid #c5e2f9;
+    border-bottom: 1px solid #c5e2f9;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background: #fff;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.main-text {
+    margin-top: 135px;
+}
+
+.main-title h3 {
+    color: #092a4e;
+    font-size: 22px;
+}
+
+.main-title p {
+    font-size: 35px;
+}
+
+.single-heading {
+    display: flex;
+}
+
+.main-title .single-text-black {
+    color: #092a4e;
+    font-size: 45px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.main-title .blue-qr-text {
+    color: #3187dd;
+    padding-left: 5px;
+    font-size: 45px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.main-title img {
+    width: 80%;
+    padding-top: 35px;
+}
+
+.qr-form {
+    padding-top: 40px;
+}
+
+.qr-form h3 {
+    color: #092a4e;
+    font-size: 17px;
+}
+
+.qr-form .qr_sticker {
+    color: #092a4e;
+}
+
+.free-qr-form {
+    position: relative;
+    max-width: 420px;
+}
+
+.free-qr-form .form-group .form-control {
+    height: 60px;
+    border: 1px solid #c5e2f9;
+    box-shadow: none;
+}
+
+.free-qr-form .submit-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 60px;
+    width: 25%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #0764b7;
+}
+
+.submit-btn {
+    width: 130px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #0d7bff;
+    border: none;
+    transition: all 0.3s ease-in;
+}
+
+.arrow-img {
+    padding-left: 10px;
+    margin-bottom: 3px;
+    width: 30px;
+}
+
+.section-title {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.section-title .title {
+    color: #092a4e;
+    font-weight: 800;
+}
+
+.section-title .title-desc {
+    color: #092a4e87;
+    padding-top: 12px;
+    max-width: 650px;
+    margin: auto;
+}
+
+.section-title .title-desc-second {
+    color: #092a4e87;
+    padding-top: 0px;
+    max-width: 650px;
+    margin: auto;
+}
+
+.feature-box {
+    padding: 25px;
+}
+
+.feature-box:hover {
+    background-color: #fff;
+    box-shadow: 0 10px 25px rgba(149, 150, 177, 0.1);
+}
+
+.feature-box .feature-img {
+    text-align: center;
+}
+
+.feature-box img {
+    width: 100px;
+}
+
+.feature-box h3 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0px;
+    color: #092a4e;
+    font-weight: 600;
+}
+
+.feature-box p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    color: #092a4e87;
+}
+
+.feature-border-style {
+    background-color: #c5e2f9;
+    border: none;
+    height: 1px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.work-img {
+    width: 450px;
+    height: 450px;
+    padding-bottom: 50px;
+}
+
+.work-feature {
+    padding: 20px 15px 15px 15px;
+}
+
+.work-feature-content {
+    padding-bottom: 65px;
+    position: relative;
+}
+
+.work-mockup {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+
+.work-feature-details h3 {
+    font-size: 18px;
+    margin-top: 0px;
+    color: #092a4e;
+    font-weight: 600;
+}
+
+.work-feature-details p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #092a4e87;
+}
+
+
+/*   More from paykunqr css   */
+
+.more-from-paykunqr-content h3 {
+    color: #092a4e;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.more-from-paykunqr-content p {
+    color: #092a4e87;
+    font-size: 14px;
+}
+
+.more-from-paykunqr-img {
+    margin-top: 20px;
+}
+
+.more-from-paykunqr-content {
+    margin-top: 20px;
+}
+
+.media-left {
+    padding-right: 30px;
+}
+
+.media:first-child {
+    margin-top: 0;
+}
+
+.work-feature-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.size250 {
+    width: 250px;
+}
+
+.test-arrow {
+    width: 30px;
+    height: 30px;
+}
+
+.text-brand {
+    color: @brand-color;
+}
+
+.carousel-indicators .active {
+    background: @brand-color;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.carousel-indicators li {
+    border: 1px solid #ccc;
+}
+
+.carousel-control {
+    color: @brand-color;
+    width: 5%;
+}
+
+.carousel-control:hover,
+.carousel-control:focus {
+    color: @brand-color;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control {
+    top: 65%;
+}
+
+.ctborder {
+    border-left: 5px solid #3187dd;
+}
+
+.ctborder h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #3187dd;
+}
+
+.ctborder p {
+    color: #092a4e87;
+}
+
+.testp {
+    color: #092a4e;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.caption {
+    margin-top: 40px;
+}
+
+.item {
+    padding: 15px 40px;
+}
+
+.media-object {
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .media-object {
+        margin-bottom: 15px;
+    }
+}
+
+.who-can-use-content {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.who-can-use-content img {
+    width: 70px;
+}
+
+.who-can-use-content p {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #092a4e;
+}
+
+.how-it-works-area {
+    margin-top: 70px;
+    background-image: url(../img/Middlegrey.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.work-border-style {
+    background-color: #c5e2f9;
+    border: none;
+    height: 1px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.work-border-style1 {
+    background-color: #fff;
+    border: 1px solid #fff;
+    height: 1px;
+    width: 100%;
+}
+
+.download-area {
+    background-image: url(../img/greyfooter.svg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.btn-app-download {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.app-down-img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.app-down {
+    cursor: pointer;
+    background: #092a4e;
+    color: #fff;
+    padding: 12px 25px 12px 25px;
+    border-radius: 40px;
+    margin: 0px 10px 0px 10px;
+}
+
+.app-down:hover,
+.app-down:active,
+.app-down:active:after,
+.app-down:active:before,
+.app-down:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bg1 {
+    background-image: url(../img/bluefooter.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 230px;
+}
+
+.footer-logo {
+    padding-top: 35px;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-logo p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 22px;
+}
+
+.about-footer {
+    float: right;
+    padding-top: 35px;
+    display: grid;
+    line-height: 25px;
+}
+
+.about-footer a {
+    margin-top: 0px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.about-footer a:hover {
+    color: #fff;
+    padding-left: 2px;
+    text-shadow: 0 7px 10px #000;
+}
+
+.contact-footer {
+    float: right;
+    padding-top: 35px;
+    padding-bottom: 70px;
+    line-height: 25px;
+}
+
+.contact-footer h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.contact-footer .fw600 {
+    font-weight: 600;
+}
+
+.footer-border-style {
+    background-color: #c5e2f97a;
+    border: none;
+    height: 1px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright p {
+    color: #ffffff78;
+    font-size: 14px;
+}
+
+
+/*    About Us Page   */
+
+.navbar-about {
+    background-color: #0764b7;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    padding-bottom: 5px;
+    border: 0;
+    border-bottom: 1px solid #c5e2f97a;
+}
+
+.india-flag-about {
+    width: 30px;
+    padding-top: 12px;
+}
+
+.india-flag-about:hover:after {
+    pointer-events: none;
+    position: absolute;
+    width: 265px;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 20px;
+    border-radius: 4px;
+    content: 'Paykun QR is available only for Indian Merchants';
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    left: -120px;
+    top: 100%;
+    margin-top: 10px;
+}
+
+.about-section-title {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+.about-section-title h3 {
+    text-align: center;
+    color: #092a4e;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.our-workspaces-title h3 {
+    text-align: center;
+    color: #092a4e;
+    font-weight: 800;
+    padding-bottom: 25px;
+}
+
+.contact-info {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-info .address h3 {
+    font-size: 18px;
+    color: #092a4e;
+}
+
+.contact-info .address p {
+    font-size: 14px;
+    color: #092a4e87;
+}
+
+.contact-info .address1 {
+    float: right;
+}
+
+.contact-info .address1 h3 {
+    font-size: 18px;
+    color: #092a4e;
+}
+
+.contact-info .address1 p {
+    font-size: 14px;
+    color: #092a4e87;
+}
+
+.mt70 {
+    margin-top: 70px;
+}
+
+
+/*    Ipad Media Query    */
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .pb25 {
+        padding-bottom: 0px;
+    }
+    .nav {
+        padding-top: 3px;
+        float: right;
+    }
+    .navbar {
+        padding-bottom: 5px;
+    }
+    .navbar-brand {
+        padding-top: 6px;
+    }
+    .store-white {
+        width: 30px;
+        height: 30px;
+    }
+    .india-flag {
+        width: 50px;
+        padding-top: 10px;
+        margin-right: 0px;
+    }
+    .download-area {
+        background-size: cover;
+    }
+    .how-it-works-area {
+        background-size: cover;
+    }
+    .section-title {
+        padding-top: 95px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .work-border-style {
+        margin-top: 20px;
+    }
+    .how-it-works-img img {
+        width: 220px;
+        height: 220px;
+    }
+    .pb45 {
+        padding-bottom: 20px;
+    }
+    .main-title h3 {
+        color: #fff;
+        font-size: 20px;
+    }
+    .main-title .single-text-black {
+        color: #fff;
+        font-size: 25px;
+        font-weight: unset;
+    }
+    .main-title .blue-qr-text {
+        color: #fff;
+        font-size: 25px;
+        font-weight: unset;
+    }
+    .qr-form h3 {
+        color: #fff;
+    }
+    .main-text {
+        margin-top: 0px;
+    }
+    .main-title {
+        margin-top: 115px;
+        margin-bottom: 50px;
+    }
+    .qr-img {
+        width: 235px;
+        margin-top: 120px;
+    }
+    .free-qr-form .submit-btn {
+        width: 100px;
+    }
+    .qr-form .qr_sticker {
+        color: #fff;
+        font-weight: unset;
+    }
+    .footer-bg1 {
+        margin-top: -22rem!important;
+        padding-top: 375px;
+    }
+    .more-from-paykunqr-img img {
+        width: 100px!important;
+    }
+}
+
+
+/*    Ipad Pro Media Query    */
+
+@media only screen and (max-width: 1366px) and (min-width: 1024px) {
+    .section-title {
+        padding-top: 20px;
+    }
+    .qr-img {
+        margin-top: 85px!important;
+        width: 85%!important;
+    }
+    .main-title h3 {
+        color: #092a4e;
+        font-weight: 900;
+    }
+    .main-title .single-text-black {
+        font-weight: 700;
+        color: #092a4e;
+        font-size: 35px;
+        margin: 0;
+    }
+    .qr-form {
+        padding-top: 20px;
+    }
+    .qr-form h3 {
+        color: #092a4e;
+        font-size: 17px;
+    }
+    .nav {
+        padding-top: 5px;
+    }
+    .navbar {
+        padding-bottom: 10px;
+    }
+    .helpline {
+        padding-top: 15px;
+    }
+    .down-app-link {
+        padding-top: 15px;
+    }
+    .mt120 {
+        margin-top: 120px;
+    }
+    .main-title .blue-qr-text {
+        color: #3187dd;
+        padding-left: 5px;
+        font-size: 45px;
+        margin: 0;
+        font-weight: 700;
+    }
+    .blue-back-desk {
+        width: 56%!important;
+        position: absolute;
+        right: 0!important;
+        z-index: -9;
+    }
+    .single-heading span {
+        font-size: 25px;
+    }
+    .pb25 {
+        padding-bottom: 25px!important;
+    }
+    .feature-box:hover {
+        background-color: unset;
+        box-shadow: unset;
+    }
+}
+
+
+/*     Galaxy Media Query   */
+
+@media only screen and (max-width: 640px) and (min-width: 360px) {
+    .main-title {
+        margin-top: 50px;
+    }
+    .navbar {
+        padding-bottom: 0px;
+        border: 0;
+    }
+    .mobile-app-down {
+        margin-top: 10px;
+    }
+    .mobile-app-down p {
+        display: inline;
+        color: #fff;
+        margin-right: 20px;
+    }
+    .store-white {
+        width: 25px;
+        height: 25px;
+    }
+    .app-down {
+        margin: 0px;
+    }
+    .section-title {
+        padding-top: 0px;
+    }
+    .section-title .title {
+        font-size: 27px;
+    }
+    .work-border-style {
+        background-color: #c5e2f9;
+        border: none;
+        height: 1px;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .free-qr-form .submit-btn {
+        width: 75px;
+        font-size: 15px;
+        padding-top: 4px;
+    }
+    .main-title .single-text-black {
+        font-size: 28px;
+    }
+    .main-title .blue-qr-text {
+        font-size: 28px;
+    }
+    .main-title h3 {
+        font-size: 17px;
+    }
+    .qr-form h3 {
+        color: #092a4e;
+    }
+    .qr-form .qr_sticker {
+        color: #092a4e;
+    }
+    .about-footer {
+        float: unset;
+        padding-top: 20px;
+    }
+    .contact-footer {
+        float: unset;
+        padding-top: 20px;
+        padding-bottom: 35px;
+    }
+    .about-footer a {
+        font-size: 12px;
+    }
+    .contact-footer h3 {
+        font-size: 12px;
+    }
+    .main-bg {
+        padding-bottom: 40px;
+    }
+    .qr-img {
+        margin-top: 30px;
+    }
+    hr {
+        margin-bottom: 10px;
+    }
+    .footer-logo p {
+        max-width: unset;
+    }
+    .who-can-use-content p {
+        height: 25px;
+        font-size: 12px;
+    }
+    .who-can-use-content img {
+        width: 45px;
+        height: 45px;
+    }
+    .who-can-use-content {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .footer-bg1 {
+        margin-top: -35rem;
+        padding-top: 427px;
+    }
+    .download-area {
+        background-size: cover;
+    }
+    .carousel-control {
+        top: 50%;
+    }
+    .ctborder h3 {
+        margin-top: 0;
+        font-size: 17px;
+    }
+}
+
+
+/*     Iphone Media Query   */
+
+@media only screen and (max-width: 568px) and (min-width: 320px) {
+    .main-title {
+        margin-top: 50px;
+    }
+    .navbar {
+        padding-bottom: 0px;
+        border: 0;
+    }
+    .mobile-app-down {
+        margin-top: 15px;
+    }
+    .mobile-app-down p {
+        display: inline;
+        color: #fff;
+        margin-right: 10px;
+    }
+    .store-white {
+        width: 20px;
+        height: 20px;
+    }
+    .app-down {
+        margin: 5px;
+        padding: 10px 15px 10px 15px;
+        font-size: 13px;
+    }
+    .download-area {
+        background-size: cover;
+    }
+    .section-title {
+        padding-top: 25px;
+    }
+    .section-title .title {
+        font-size: 20px;
+    }
+    .work-border-style {
+        background-color: #c5e2f9;
+        border: none;
+        height: 1px;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .free-qr-form .submit-btn {
+        width: 75px;
+        font-size: 15px;
+        padding-top: 4px;
+    }
+    .main-title h3 {
+        font-size: 17px;
+    }
+    .main-title .single-text-black {
+        font-size: 24px;
+    }
+    .main-title .blue-qr-text {
+        font-size: 24px;
+    }
+    .logo-white {
+        width: 70px;
+    }
+    .qr-form h3 {
+        color: #092a4e;
+    }
+    .qr-form .qr_sticker {
+        color: #092a4e;
+    }
+    .how-it-works-area {
+        background-size: cover;
+    }
+    .about-footer {
+        float: unset;
+        padding-top: 20px;
+        line-height: 20px;
+    }
+    .footer-logo p {
+        font-size: 12px;
+    }
+    .copyright p {
+        font-size: 12px;
+    }
+    .contact-footer {
+        float: unset;
+        padding-top: 20px;
+        padding-bottom: 35px;
+        line-height: 20px;
+    }
+    .about-footer a {
+        font-size: 11px;
+    }
+    .contact-footer h3 {
+        font-size: 11px;
+        line-height: 20px;
+        margin-bottom: 0px;
+    }
+    .main-bg {
+        padding-bottom: 35px;
+    }
+    .qr-img {
+        margin-top: 30px;
+    }
+    hr {
+        margin-bottom: 10px;
+    }
+    .footer-logo img {
+        width: 70px;
+    }
+    .footer-logo p {
+        max-width: unset;
+    }
+    .who-can-use-content p {
+        height: 25px;
+        font-size: 12px;
+    }
+    .who-can-use-content img {
+        width: 45px;
+        height: 45px;
+    }
+    .who-can-use-content {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .free-qr-form .form-group .form-control {
+        height: 50px;
+    }
+    .form-group .pre-mobile {
+        padding: 14px 15px 0px 15px;
+    }
+    .free-qr-form .submit-btn {
+        height: 50px;
+    }
+    .submit-btn {
+        line-height: 42px;
+    }
+    .more-from-paykunqr-content {
+        text-align: center;
+    }
+    .more-from-paykunqr-img {
+        text-align: center;
+    }
+    .more-from-paykunqr-img img {
+        width: 150px;
+    }
+    .how-it-works-img img {
+        width: 150px;
+        height: 175px;
+    }
+    .mtf75 {
+        margin-top: 0;
+    }
+    .footer-bg1 {
+        margin-top: -35rem;
+        padding-top: 427px;
+    }
+    .carousel-control {
+        top: 50%;
+    }
+    .ctborder h3 {
+        margin-top: 0;
+        font-size: 17px;
+    }
+}
+
+
+/*   Other Devices Media Query   */
+
+@media only screen and (max-width: 1440px) and (min-width: 900px) {
+    .qr-img {
+        margin: auto;
+        margin-top: -15px;
+    }
+    .download-area {
+        background-size: cover;
+    }
+    .blue-back-desk {
+        position: absolute;
+        right: -210px;
+        z-index: -9;
+    }
+    .footer-bg1 {
+        margin-top: -10rem!important;
+    }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 800px) {
+    .qr-img {
+        margin: auto;
+        margin-top: -15px;
+    }
+    .mt120 {
+        margin-top: 120px;
+    }
+    .pb25 {
+        padding-bottom: 0px;
+    }
+    .main-title .blue-qr-text {
+        font-size: 30px;
+    }
+    .main-title .single-text-black {
+        font-size: 25px;
+    }
+    .qr-img {
+        width: 100%;
+    }
+    .nav {
+        padding-top: 0px;
+    }
+    .more-from-paykunqr-img img {
+        width: 100px!important;
+    }
+    .footer-bg1 {
+        margin-top: -15rem!important;
+    }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 800px) and (orientation: portrait) {
+    .qr-img {
+        margin-top: 120px;
+    }
+    .navbar-brand {
+        padding-top: 6px;
+    }
+    .helpline {
+        padding-top: 16px;
+    }
+    .down-app-link {
+        padding-top: 16px;
+    }
+    .single-headingspan {
+        font-size: 25px;
+    }
+    .footer-bg1 {
+        margin-top: -15rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+    .main-title {
+        margin-top: 85px;
+    }
+    .awosome-feature {
+        background-position: -14rem 10rem;
+        background-size: 83%;
+    }
+    .how-it-works-area {
+        background-size: cover;
+    }
+    .more-from-paykunqr-img,
+    .more-from-paykunqr-content {
+        text-align: center;
+    }
+    .more-from-paykunqr-img img {
+        width: 250px;
+    }
+    .footer-bg1 {
+        margin-top: -30rem;
+    }
+}
